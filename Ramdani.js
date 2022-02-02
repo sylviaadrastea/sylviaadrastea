@@ -544,7 +544,7 @@ module.exports = RAMDANI = async (RAMDANI, mek) => {
 		const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stickerMessage')
         const troli =  {key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 300, status: 200, thumbnail: fakeimage, surface: 200, message: fake, orderTitle: 'dha', sellerJid: '0@s.whatsapp.net'} } }
         const ftext = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: { "extendedTextMessage": {"text": `*Hai ${pushname}👋*\n  ${moment().utcOffset('+0700').format('HH:mm:ss')} ${moment.tz('Asia/Jakarta').format('DD/MM/YYYY')}`,"title": `Hmm`,'jpegThumbnail': fs.readFileSync('./media/RAMDANI3.jpg')}}}
-        const ftoko = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": fs.readFileSync(`./media/RAMDANI3.jpg`)},"title": `© Sylvia Adrastea`,"description": "ℭ𝔯𝔢𝔞𝔱𝔬𝔯 scylotte bot", "currencyCode": "IDR","priceAmount1000": "999999","retailerId": "Zero YT7","productImageCount": 1},"businessOwnerJid": `0@s.whatsapp.net`}}}
+        const ftoko = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": fs.readFileSync(`./media/RAMDANI3.jpg`)},"title": `© Sylvia Adrastea`,"description": "ℭ𝔯𝔢𝔞𝔱𝔬𝔯 Zero YT7", "currencyCode": "IDR","priceAmount1000": "999999","retailerId": "Zero YT7","productImageCount": 1},"businessOwnerJid": `0@s.whatsapp.net`}}}
 
       // Anti link
         if (isGroup && isAntiLink && !isOwner && !isGroupAdmins && isBotGroupAdmins){
@@ -820,13 +820,12 @@ function banChat() {
         case 'creator':
                sendKontak(from, `${owner}`, `${ownerName}`, 'Sibukk!!')
                await sleep(1000)
-               txtt =`Hai ${pushname}\nItu Ownerku, Mau Ngpain Yaa?`
+               txtt =`*Haii @${sender.split('@')[0]}*\n*Itu Ownerku, Ada Keperluan Apa?`
 
-             
 
                buttonsMessage = {
                contentText: `${txtt}`,
-               footerText: 'Creator Sylvia Adrastea',
+               footerText: '© Sylvia Adrastea',
                buttons: buttons,
                headerType: 1
 }
@@ -852,13 +851,13 @@ RAMDANI.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
         case 'help':
         menu =`╭──❒ *INFO USER*
 ├• *Nama : ${pushname}*
-├• *Nomor : ${sender.split('@')[0]}*
+├• *Nomor : @${sender.split('@')[0]}*
 ├• *Status : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
 ├• *Baterai : ${baterai}%*
 └────────────>
     ├❒ *INFO BOT*
     ├• *Nama bot : ViaaBot*
-    ├• *Nomor : 6285798070694*
+    ├• *Nomor : @62857980707940*
     ├• *Owner : Sylvia Adrastea*
     ├• *Aktif : ${runtime(process.uptime())}*
     ├• *Prefix : 『> multi prefix <』*
@@ -893,34 +892,7 @@ RAMDANI.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                prep = await RAMDANI.prepareMessageFromContent(from,{buttonsMessage},{quoted: troli})
               RAMDANI.relayWAMessage(prep)
                 break
-        case 'selamat':
-        man =`⛅ ☁ ☁  ☁  🚁   ✈
-🏢🏤_🏬_ / |_\🏫🏢🌳🌳
-_____🚋_🚗__🚕______
-🏡⁣🏥🏦  /   |🚖\ 🏠🌳🏡
-🏡🏡🏪 /    | 🚘\ 🏪🏨
-💒 🏨 /     |    \ 🏡🏩
-╔══╗╔═╗╔╗─╔══╗
-║══╣║╦╝║║─║╔╗║
-╠══║║╩╗║╚╗║╠╣║
-╚══╝╚═╝╚═╝╚╝╚╝
-╔═╦═╗╔══╗╔══╗
-║║║║║║╔╗║╚╗╔╝
-╚╩═╩╝╚╝╚╝─╚╝─
-╔══╗╔══╗╔╗╔╗╔╦╗╔═╦╗
-╚╗╔╝║╔╗║║╚╝║║║║║║║║
-─║║─║╠╣║║╔╗║║║║║║║║
-─╚╝─╚╝╚╝╚╝╚╝╚═╝╚╩═╝
-╔══╗╔══╗╔═╗╔╦╗
-║╔╗║║╔╗║║╬║║║║
-║╔╗║║╠╣║║╗╣║║║
-╚══╝╚╝╚╝╚╩╝╚═╝
-╔═══╗╔═══╗╔═══╗╔═══╗
-║╔═╗║║╔═╗║║╔═╗║║╔═╗║
-╚╝╔╝║║║║║║╚╝╔╝║╚╝╔╝║
-╔═╝╔╝║║║║║╔═╝╔╝╔═╝╔╝
-║║╚═╗║╚═╝║║║╚═╗║║╚═╗
-🎉🎊🥳🎊🎉🥳🎊🎉🥳🎊🎉🥳`
+
                buttons = [{buttonId: `${prefix}menu`,buttonText:{displayText: '<Back Menu>'},type:1}]
 
                imageMsg = (await RAMDANI.prepareMessageMedia(fs.readFileSync(`./media/Ramdani4.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/Ramdani3.jpg`)})).imageMessage
@@ -938,8 +910,8 @@ _____🚋_🚗__🚕______
      
         case 'command':
                list = []
-               listmenu = [`soundmenu`,`groupmenu`,`wibumenu`,`stickermenu`,`sertimenu`,`ceritamenu`,`makermenu`,`ownermenu`,`funmenu`,`downloadmenu`,`infomenu`,`othermenu`,`toolsmenu`,`infobot`,`owner`,`buttonstik`,`buttondl`,`buttosound`,`buttonown`,`buttonpen`,`buttongame`,`buttongc`,`buttonwibu`]
-               listmenuu = [`Sound Menu`,`Menu Group`,`Wibu Menu`,`Sticker Menu`,`Serti Menu`,`Cerita Menu`,`Maker Menu`,`Owner Menu`,`Fumn Menu`,`Downloader`,`Info Menu`,`MenuLainnya`,`Tools Menu`,`Info Bot`,`Owner`,`Stiker Menu`,`Dowload Menu`,`Owner Menu`,`Nulis Menu`,`Wibu Menu`]
+               listmenu = [`soundmenu`,`selamat`,`groupmenu`,`wibumenu`,`stickermenu`,`islammenu`,`sertimenu`,`ceritamenu`,`makermenu`,`dewasamenu`,`ownermenu`,`gamemenu`,`funmenu`,`downloadmenu`,`infomenu`,`othermenu`,`toolsmenu`,`infobot`,`owner`,`buttonstik`,`buttondl`,`buttosound`,`buttonown`,`buttonpen`,`buttongame`,`buttongc`,`buttonwibu`]
+               listmenuu = [`Sound Menu`,`Menu Group`,`Wibu Menu`,`Sticker Menu`,`Serti Menu`,`Cerita Menu`,`Maker Menu`,`Owner Menu`,`Fun Menu`,`Downloader`,`Info Menu`,`MenuLainnya`,`Tools Menu`,`Info Bot`,`Owner`,`Stiker Menu`,`Dowload Menu`,`Owner Menu`,`Nulis Menu`,`Grup Menu`,`Wibu Menu`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
@@ -954,7 +926,7 @@ _____🚋_🚗__🚕______
                    }
                         list.push(yy)
            }
-               listmsg(from, `${ucapanWaktu}`,  `*Haloo ${pushname}*\n*kamu dapat melihat kategori yang sudah kami sediakan*\n*Silahkan Pilih Disini!*`, list)
+               listmsg(from, `${ucapanWaktu}`,  `*Haloo ${pushname}*\n*Silahkan Pilih Disini!*\n*Jangan spam Bot Ya Kasih Jeda 5detik*`, list)
                break
        
 //------------------< Game >------------------- 
@@ -1017,7 +989,7 @@ _____🚋_🚗__🚕______
               gilir = player2
               ky_ttt.push({player1,player2,id,angka,gilir})
               RAMDANI.sendMessage(from, 
-`*🎳 Memulai Game Tictactoe ??*
+`*🎳 Memulai Game Tictactoe 🎲*
 
 [@${player2.split('@')[0]}] Menantang anda untuk menjadi lawan Game🔥
 Ketik Y/N untuk menerima atau menolak permainan
@@ -1494,17 +1466,17 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
               break             
 //------------------< bayar menu >-------------------  
 case 'bayar':
-gopeynya = 'https://i.ibb.co/kynNYTh/RAMDANI2.jpg'
+gopeynya = 'https://i.ibb.co/1K3CbDG/20220131-223944-polarr.jpg'
 teksnya = `*[ PAYMENT ]*
 *Gopay :* 089512545999
 *Dana :* 089512545999
 *Ovo :* 089512545999
-*[ © Creator Sylvia Adrastea ]*`
+*[ © Creator Sylvia Adrasteal ]*`
         RAMDANI.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
  
 case 'buttonstik':
-              gopeynya = 'https://i.ibb.co/kynNYTh/RAMDANI2.jpg'
+              gopeynya = 'https://i.ibb.co/1K3CbDG/20220131-223944-polarr.jpg'
               teksnya = `*「MENU STICKER」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
 Ramdani Official
@@ -1524,7 +1496,7 @@ Ramdani Official
               RAMDANI.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
  case 'buttondl':
-              gopeynya = 'https://i.ibb.co/kynNYTh/RAMDANI2.jpg'
+              gopeynya = 'https://i.ibb.co/1K3CbDG/20220131-223944-polarr.jpg'
               teksnya = `*「DOWNLOAD MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
 Ramdani Official
@@ -1546,18 +1518,12 @@ Ramdani Official
               RAMDANI.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break          
               case 'buttonsound':
-              gopeynya = 'https://i.ibb.co/kynNYTh/RAMDANI2.jpg'
+              gopeynya = 'https://i.ibb.co/1K3CbDG/20220131-223944-polarr.jpg'
               teksnya = `*「SOUND MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
 Ramdani Official
 
-*• ${prefix}ngaji*
-*• ${prefix}ngaji2*
-*• ${prefix}sholawatnabi*
-*• ${prefix}tilawah*
-*• ${prefix}sound desah*
-*• ${prefix}sound desah2*
-*• ${prefix}sound desah3*
+
 *• ${prefix}sound1*
 *• ${prefix}sound2*
 *• ${prefix}sound3*
@@ -1661,7 +1627,7 @@ Ramdani Official
               RAMDANI.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttonpen':
-              gopeynya = 'https://i.ibb.co/kynNYTh/RAMDANI2.jpg'
+              gopeynya = 'https://i.ibb.co/1K3CbDG/20220131-223944-polarr.jpg'
               teksnya = `*「NULIS MENU」*
 *• ${prefix}nulis*
 *Ketik ${prefix}owner, Untuk Request Fitur*
@@ -1669,7 +1635,7 @@ Ramdani Official`
               RAMDANI.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttongame':
-              gopeynya = 'https://i.ibb.co/kynNYTh/RAMDANI2.jpg'
+              gopeynya = 'https://i.ibb.co/1K3CbDG/20220131-223944-polarr.jpg'
               teksnya = `*「GAME MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
 Ramdani Official
@@ -1698,7 +1664,7 @@ Ramdani Official
               RAMDANI.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttongc':
-              gopeynya = 'https://i.ibb.co/kynNYTh/RAMDANI2.jpg'
+              gopeynya = 'https://i.ibb.co/1K3CbDG/20220131-223944-polarr.jpg'
               teksnya = `*「GRUP MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
 Ramdani Official
@@ -1730,7 +1696,7 @@ Ramdani Official
               RAMDANI.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttonwibu':
-              gopeynya = 'https://i.ibb.co/kynNYTh/RAMDANI2.jpg'
+              gopeynya = 'https://i.ibb.co/1K3CbDG/20220131-223944-polarr.jpg'
               teksnya = `*「WIBU MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
 Ramdani Official
@@ -1762,7 +1728,7 @@ Ramdani Official
               RAMDANI.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftext, caption: teksnya })
               break
 case 'buttonown':
-              gopeynya = 'https://i.ibb.co/kynNYTh/RAMDANI2.jpg'
+              gopeynya = 'https://i.ibb.co/1K3CbDG/20220131-223944-polarr.jpg'
               teksnya = `*「OWNER MENU」*
 *Ketik ${prefix}owner, Untuk Request Fitur*
 Ramdani Official
@@ -3655,8 +3621,8 @@ case 'getvn':
              } else {
              for (let _ of anu) {
 RAMDANI.sendMessage(_.jid, 
-			{"contentText": `*「 Siaran RAMDANI BOT 」*\n#Ijin Siaran\n*Isi Pesan :* ${body.slice(4)}`,
-			"footerText": 'Sylvia Adrastea',
+			{"contentText": `*「 Siaran ViaaBot 」*\n#Ijin Siaran\n*Isi Pesan :* ${body.slice(4)}`,
+			"footerText": '© Sylvia Adrastea',
 			"buttons": [
 			{"buttonId": `${prefix}menu`,
 			"buttonText": {"displayText": "LIST MENU"
