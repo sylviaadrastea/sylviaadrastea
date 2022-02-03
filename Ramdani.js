@@ -45,8 +45,8 @@ const qrcodes = require('qrcode');
 const imgbb = require('imgbb-uploader');
 const os = require('os');
 const { virtex, vipi } = require('./lib/virtex.js')
-const Mfake = fs.readFileSync ('./media/RAMDANI2.jpg')
-const Mthumb = fs.readFileSync('./media/RAMDANI2.jpg')
+const Mfake = fs.readFileSync ('./media/Ramdani2.jpg')
+const Mthumb = fs.readFileSync('./media/Ramdani2.jpg')
 const timeWib = moment.tz('Asia/Jakarta').format('DD/MM')
 //ೋ❀❀ೋ═══[SUBSCRIBE RAMDANI OFFICIAL]═══ೋ❀❀ೋ//
 // stickwm
@@ -84,7 +84,7 @@ let setiker = JSON.parse(fs.readFileSync('./temp/stik.json'))
 let imagenye = JSON.parse(fs.readFileSync('./temp/image.json'))
 let videonye = JSON.parse(fs.readFileSync('./temp/video.json'))
 let audionye = JSON.parse(fs.readFileSync('./temp/vn.json'))
-let fakeimage = fs.readFileSync("./media/RAMDANI2.jpg")
+let fakeimage = fs.readFileSync("./media/Ramdani2.jpg")
 let errorImg = 'https://i.ibb.co/FBm52Pt/1e0fe6a08b67.jpg'
 let setting = JSON.parse(fs.readFileSync('./setting.json'))
 //ೋ❀❀ೋ═══[SUBSCRIBE RAMDANI OFFICIAL]═══ೋ❀❀ೋ//
@@ -279,13 +279,13 @@ module.exports = RAMDANI = async (RAMDANI, mek) => {
            RAMDANI.sendMessage(hehe, teks, text)
         }
         const mentions = (teks, memberr, id) => {
-           (id == null || id == undefined || id == false) ? RAMDANI.sendMessage(from, {text: teks.trim(), jpegThumbnail: fs.readFileSync('./media/RAMDANI2.jpg')}, extendedText, { sendEphemeral: true, contextInfo: { "mentionedJid": memberr } }) : RAMDANI.sendMessage(from, {text: teks.trim(), jpegThumbnail: fs.readFileSync('./media/RAMDANI2.jpg')}, extendedText, { sendEphemeral: true, quoted: mek, contextInfo: { "mentionedJid": memberr } })
+           (id == null || id == undefined || id == false) ? RAMDANI.sendMessage(from, {text: teks.trim(), jpegThumbnail: fs.readFileSync('./media/Ramdani2.jpg')}, extendedText, { sendEphemeral: true, contextInfo: { "mentionedJid": memberr } }) : RAMDANI.sendMessage(from, {text: teks.trim(), jpegThumbnail: fs.readFileSync('./media/Ramdani2.jpg')}, extendedText, { sendEphemeral: true, quoted: mek, contextInfo: { "mentionedJid": memberr } })
         }
         const sendText = (from, text) => {
            RAMDANI.sendMessage(from, text, MessageType.text)
         }
         const textImg = (teks) => {
-           return RAMDANI.sendMessage(from, teks, text, {quoted: mek, thumbnail: fs.readFileSync('./media/RAMDANI2.jpg')})
+           return RAMDANI.sendMessage(from, teks, text, {quoted: mek, thumbnail: fs.readFileSync('./media/Ramdani2.jpg')})
         }
         const freply = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { "contactMessage": { "displayName": `${pushname}`, "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${senderr.split('@')[0]}:${senderr.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, "jpegThumbnail":fs.readFileSync('./media/RAMDANI3.jpg')
         }}}
@@ -2457,8 +2457,8 @@ Source : ${anu.result.source}
 				case 'play':
               if (!q) return reply('Linknya?')
               buttons = [{buttonId: `${prefix}play2 ${q}`,buttonText:{displayText: `🎥 Video`},type:1},{buttonId:`${prefix}playy ${q}`,buttonText:{displayText:'🎵 Mp3'},type:1}]
-              imageMsg = (await RAMDANI.prepareMessageMedia(fs.readFileSync(`./media/RAMDANI2.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/RAMDANI2.jpg`)})).imageMessage
-              buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak ☕', imageMessage: imageMsg,
+              imageMsg = (await RAMDANI.prepareMessageMedia(fs.readFileSync(`./media/Ramdani2.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/Ramdani2.jpg`)})).imageMessage
+              buttonsMessage = {footerText:'© Sylvia Adrastea', imageMessage: imageMsg,
               contentText:`Silahkan Pilih Media Yg Akan Di Download kak`,buttons,headerType:4}
               prep = await RAMDANI.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               RAMDANI.relayWAMessage(prep)
@@ -4106,7 +4106,7 @@ case 'linkgc':
                break
         case 'info':
         case 'infobot':  // Jangan Di Ubah Plise
-               gopeynya = 'https://i.ibb.co/kynNYTh/RAMDANI2.jpg'
+               gopeynya = 'https://i.ibb.co/1K3CbDG/20220131-223944-polarr.jpg'
                thankslort = `*[━━━━ INFO BOT ━━━━]*\n*➤ Nama : Sylvia Adrastea*\n*➤ Pukul : ${moment().utcOffset('+0700').format('HH:mm')}*\n*➤ Tanggal : ${moment.tz('Asia/Jakarta').format('DD/MM')}*\n*➤ Tipe : Node Js*\n*➤ Version : 3.3*\n*[━━━━━━━━━━━━━━━━━━]*`
              RAMDANI.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: thankslort })
              break
