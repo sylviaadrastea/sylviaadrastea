@@ -857,7 +857,7 @@ RAMDANI.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 └────────────>
     ├❒ *INFO BOT*
     ├• *Nama bot : ViaaBot*
-    ├• *Nomor : @62857980707940*
+    ├• *Nomor : wa.me/62857980707940*
     ├• *Owner : Sylvia Adrastea*
     ├• *Aktif : ${runtime(process.uptime())}*
     ├• *Prefix : 『> multi prefix <』*
@@ -910,7 +910,7 @@ RAMDANI.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
      
         case 'command':
                list = []
-               listmenu = [`soundmenu`,`selamat`,`groupmenu`,`wibumenu`,`stickermenu`,`islammenu`,`sertimenu`,`ceritamenu`,`makermenu`,`dewasamenu`,`ownermenu`,`gamemenu`,`funmenu`,`downloadmenu`,`infomenu`,`othermenu`,`toolsmenu`,`infobot`,`owner`,`buttonstik`,`buttondl`,`buttosound`,`buttonown`,`buttonpen`,`buttongame`,`buttongc`,`buttonwibu`]
+               listmenu = [`soundmenu`,`groupmenu`,`wibumenu`,`stickermenu`,`sertimenu`,`ceritamenu`,`makermenu`,`ownermenu`,`funmenu`,`downloadmenu`,`infomenu`,`othermenu`,`toolsmenu`,`infobot`,`owner`,`buttonstik`,`buttondl`,`buttosound`,`buttonown`,`buttonpen`,`buttongc`,`buttonwibu`]
                listmenuu = [`Sound Menu`,`Menu Group`,`Wibu Menu`,`Sticker Menu`,`Serti Menu`,`Cerita Menu`,`Maker Menu`,`Owner Menu`,`Fun Menu`,`Downloader`,`Info Menu`,`MenuLainnya`,`Tools Menu`,`Info Bot`,`Owner`,`Stiker Menu`,`Dowload Menu`,`Owner Menu`,`Nulis Menu`,`Grup Menu`,`Wibu Menu`]
                nombor = 1
                startnum = 0

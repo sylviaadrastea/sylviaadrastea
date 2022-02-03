@@ -1,13 +1,6 @@
 exports.soundMenu = (prefix) => {
     return `
    *────❲SOUND MENU❳────*
-*▢️ ${prefix}ngaji*
-*▢️ ${prefix}ngaji2*
-*▢️ ${prefix}sholawatnabi*
-*▢️ ${prefix}tilawah*
-*▢️ ${prefix}sound desah*
-*▢️ ${prefix}sound desah2*
-*▢️ ${prefix}sound desah3*
 *▢️ ${prefix}sound1*
 *▢️ ${prefix}sound2*
 *▢️ ${prefix}sound3*
@@ -113,11 +106,11 @@ exports.soundMenu = (prefix) => {
 exports.gameMenu = (prefix) => {
     return `
   *────❲GAME MENU❳────*
- 
+FITUR GAME SEDANG ERROR! 
 *▢️ ${prefix}limitgame*
 *▢️ ${prefix}slot*
-*▢️ ${prefix}gelud* *@tag*
-*▢️ ${prefix}tictactoe* *@tag*
+*▢️ ${prefix}gelud* _@tag_
+*▢️ ${prefix}tictactoe* _@tag_
 *▢️ ${prefix}siapaaku*
 *▢️ ${prefix}family100*
 *▢️ ${prefix}kuismath*
@@ -134,7 +127,7 @@ exports.gameMenu = (prefix) => {
 *▢️ ${prefix}tebakgambar*
 *▢️ ${prefix}tebakumur*
 *▢️ ${prefix}tebakbendera*
-*▢️ ${prefix}suit* *batu/kertas/gunting*
+*▢️ ${prefix}suit* _batu/kertas/gunting_
 *▢️ ${prefix}math*
 `
 }
@@ -144,8 +137,8 @@ exports.funMenu = (prefix) => {
 
 *▢️ ${prefix}mining*
 *▢️ ${prefix}cekwatak*
-*▢️ ${prefix}cekmati* [nama]
-*▢️ ${prefix}wangy* [nama]
+*▢️ ${prefix}cekmati* _[nama]_
+*▢️ ${prefix}wangy* _[nama]_
 *▢️ ${prefix}citacita*
 *▢️ ${prefix}toxic*
 *▢️ ${prefix}truth*
@@ -167,43 +160,43 @@ exports.otherMenu = (prefix) => {
     return `
 *────❲OTHER MENU❳────*
 
-*▢️ ${prefix}brainly* *query*
+*▢️ ${prefix}brainly* _query_
 *▢️ ${prefix}cerpen*
-*▢️ ${prefix}shopee* *product*
-*▢️ ${prefix}playstore* *query*
-*▢️ ${prefix}ssweb* *query*
-*▢️ ${prefix}google* *query*
-*▢️ ${prefix}image* *query*
-*▢️ ${prefix}pinterest* *query*
-*▢️ ${prefix}nulis* *teks*
-*▢️ ${prefix}iguser* *ussername*
-*▢️ ${prefix}igstalk* *username*
-*▢️ ${prefix}githubstalk* *username*
-*▢️ ${prefix}tiktokstalk* *ussername*
-*▢️ ${prefix}img2url* *reply foto*
-*▢️ ${prefix}ytsearch* *query*
+*▢️ ${prefix}shopee* _product_
+*▢️ ${prefix}playstore* _query_
+*▢️ ${prefix}ssweb* _query_
+*▢️ ${prefix}google* _query_
+*▢️ ${prefix}image* _query_
+*▢️ ${prefix}pinterest* _query_
+*▢️ ${prefix}nulis* _teks_
+*▢️ ${prefix}iguser* _ussername_
+*▢️ ${prefix}igstalk* _username_
+*▢️ ${prefix}githubstalk* _username_
+*▢️ ${prefix}tiktokstalk* _ussername_
+*▢️ ${prefix}img2url* _reply foto_
+*▢️ ${prefix}ytsearch* _query_
 `
 }
 exports.stickerMenu = (prefix) => {
     return `
 *────❲STIKER MENU❳────*
 
-*▢️ ${prefix}attp* *teks*
-*▢️ ${prefix}ttp2* *teks*
-*▢️ ${prefix}ttp3* *teks*
-*▢️ ${prefix}ttp4* *teks*
-*▢️ ${prefix}amongus* *teks*
+*▢️ ${prefix}attp* _teks_
+*▢️ ${prefix}ttp2* _teks_
+*▢️ ${prefix}ttp3* _teks_
+*▢️ ${prefix}ttp4* _teks_
+*▢️ ${prefix}amongus* _teks_
 *▢️ ${prefix}dadu*
 *▢️ ${prefix}doge*
 *▢️ ${prefix}patrick*
 *▢️ ${prefix}gura*
 *▢️ ${prefix}stickeranime*
-*▢️ ${prefix}semoji* *emoji*
-*▢️ ${prefix}sticker* *reply foto/video*
-*▢️ ${prefix}smeme* *teks|teks*
-*▢️ ${prefix}swm* *pack|author*
-*▢️ ${prefix}take* *pack|author* 
-*▢️ ${prefix}tovideo* *reply sgif*
+*▢️ ${prefix}semoji* _emoji_
+*▢️ ${prefix}sticker* _reply foto/video_
+*▢️ ${prefix}smeme* _teks|teks_
+*▢️ ${prefix}swm* _pack|author_
+*▢️ ${prefix}take* _pack|author_
+*▢️ ${prefix}tovideo* _reply sgif_
 *▢️ ${prefix}toimg*
 `
 }
@@ -211,26 +204,24 @@ exports.wibuMenu = (prefix) => {
     return `
 *────❲WIBU MENU❳────*
 
-*▢️ ${prefix}loli
-*▢️ ${prefix}manga
-*▢️ ${prefix}anime 
-*▢️ ${prefix}lolivideo
-*▢️ ${prefix}husbu
-*▢️ ${prefix}waifu
-*▢️ ${prefix}milf
-*▢️ ${prefix}neko
-*▢️ ${prefix}kanna
-*▢️ ${prefix}sagiri
-*▢️ ${prefix}hentai
-*▢️ ${prefix}wallnime
-*▢️ ${prefix}kusonime
-*▢️ ${prefix}megumin
-*▢️ ${prefix}otakudesu
-*▢️ ${prefix}doujindesu
-*▢️ ${prefix}storyanime
-*▢️ ${prefix}otakuongoing
-*▢️ ${prefix}nhentai *code*
-*▢️ ${prefix}nekopoi *link*
+*▢️ ${prefix}loli*
+*▢️ ${prefix}manga*
+*▢️ ${prefix}anime*
+*▢️ ${prefix}lolivideo*
+*▢️ ${prefix}husbu*
+*▢️ ${prefix}waifu*
+*▢️ ${prefix}milf*
+*▢️ ${prefix}neko*
+*▢️ ${prefix}kanna*
+*▢️ ${prefix}sagiri*
+*▢️ ${prefix}hentai*
+*▢️ ${prefix}wallnime*
+*▢️ ${prefix}kusonime*
+*▢️ ${prefix}megumin*
+*▢️ ${prefix}otakudesu*
+*▢️ ${prefix}doujindesu*
+*▢️ ${prefix}storyanime*
+*▢️ ${prefix}otakuongoing*
 
 `
 }
@@ -238,20 +229,20 @@ exports.ownerMenu = (prefix) => {
     return `
 *────❲OWNER MENU❳────*
 
-*▢️ ${prefix}bc *teks*
-*▢️ ${prefix}term
-*▢️ ${prefix}eval
-*▢️ ${prefix}reset
-*▢️ ${prefix}clearall
-*▢️ ${prefix}leaveall
-*▢️ ${prefix}join *link gc*
-*▢️ ${prefix}shutdown
-*▢️ ${prefix}getquoted
-*▢️ ${prefix}addupdate *fiturnya*
-*▢️ ${prefix}exif *nama|author*
-*▢️ ${prefix}sewa add/del *waktunya*
-*▢️ ${prefix}premium add @tag|nomor
-*▢️ ${prefix}premium del @tag|nomor
+*▢️ ${prefix}bc* _teks_
+*▢️ ${prefix}term*
+*▢️ ${prefix}eval*
+*▢️ ${prefix}reset*
+*▢️ ${prefix}clearall*
+*▢️ ${prefix}leaveall*
+*▢️ ${prefix}join* _link gc_
+*▢️ ${prefix}shutdown*
+*▢️ ${prefix}getquoted*
+*▢️ ${prefix}addupdate* _fiturnya_
+*▢️ ${prefix}exif* _nama|author_
+*▢️ ${prefix}sewa add/del* _waktunya_
+*▢️ ${prefix}premium add* _@tag|nomor_
+*▢️ ${prefix}premium del* _@tag|nomor_
 `
 }
 
@@ -259,44 +250,43 @@ exports.groupMenu = (prefix) => {
     return`
 *────❲GRUP MENU❳────*
     
-*▢️ ${prefix}groupsetting
-*▢️ ${prefix}afk *alasan*
-*▢️ ${prefix}ceksewa
-*▢️ ${prefix}kickall
-*▢️ ${prefix}infogrup
-*▢️ ${prefix}promote
-*▢️ ${prefix}demote
-*▢️ ${prefix}listonline
-*▢️ ${prefix}tagall *teks*
-*▢️ ${prefix}leave
-*▢️ ${prefix}kick *reply*
-*▢️ ${prefix}add *+62xxxxxx*
-*▢️ ${prefix}setnamegc
-*▢️ ${prefix}setppgc
-*▢️ ${prefix}setdeskgc
-*▢️ ${prefix}sider *reply chat bot*
-*▢️ ${prefix}hidetag *teks/reply teks*
-*▢️ ${prefix}linkgc
+*▢️ ${prefix}groupsetting*
+*▢️ ${prefix}afk* _alasan_
+*▢️ ${prefix}kickall*
+*▢️ ${prefix}infogrup*
+*▢️ ${prefix}promote*
+*▢️ ${prefix}demote*
+*▢️ ${prefix}listonline*
+*▢️ ${prefix}tagall* _teks_
+*▢️ ${prefix}leave*
+*▢️ ${prefix}kick* _reply_
+*▢️ ${prefix}add* _+62xxxxxx_
+*▢️ ${prefix}setnamegc*
+*▢️ ${prefix}setppgc*
+*▢️ ${prefix}setdeskgc*
+*▢️ ${prefix}sider* _reply chat bot_
+*▢️ ${prefix}hidetag* _teks/reply teks_
+*▢️ ${prefix}linkgc*
 `
 }
 exports.downloadMenu = (prefix) => {
     return `
 *────❲DOWNLOADER❳────*
 
-*▢️ ${prefix}fbdl 
-*▢️ ${prefix}igdl 
-*▢️ ${prefix}igdl2 
-*▢️ ${prefix}twitter 
-*▢️ ${prefix}tiktok 
-*▢️ ${prefix}play 
-*▢️ ${prefix}ythd 
-*▢️ ${prefix}ytmp3 
-*▢️ ${prefix}ytmp4 
-*▢️ ${prefix}soundcloud 
-*▢️ ${prefix}tiktoknowm 
-*▢️ ${prefix}tiktokaudio
-*▢️ ${prefix}mediafire 
-*▢️ ${prefix}nhentaipdf *code*
+*▢️ ${prefix}fbdl*
+*▢️ ${prefix}igdl*
+*▢️ ${prefix}igdl2*
+*▢️ ${prefix}twitter* 
+*▢️ ${prefix}tiktok* 
+*▢️ ${prefix}play*
+*▢️ ${prefix}ythd*
+*▢️ ${prefix}ytmp3*
+*▢️ ${prefix}ytmp4*
+*▢️ ${prefix}soundcloud*
+*▢️ ${prefix}tiktoknowm*
+*▢️ ${prefix}tiktokaudio*
+*▢️ ${prefix}mediafire* 
+*▢️ ${prefix}nhentaipdf* _code_
 `
 }
 exports.rulesBot = (prefix) => {
@@ -315,11 +305,11 @@ Sanksi: *PERMANENT BLOCK*
 4. Jangan Culik Bot.
 Sanksi: *GRUP DI SERANG PAKAI BUG/VIRUS*
 
-Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
+Jika sudah dipahami rules-nya, silakan ketik *.menu* untuk memulai!
 `
 }
 exports.iklanBot = (prefix) => {
-return`         𝗜𝗞𝗟𝗔𝗡 𝗕𝗢𝗧𝗭
+return`         𝗜𝗞𝗟𝗔𝗡 𝗕𝗢𝗧
       
 KEUNTUNGAN BOTZ
 ▢ BISA JAGA GRUP DARI LINK
@@ -328,18 +318,18 @@ KEUNTUNGAN BOTZ
 ▢ BISA PLAY AUDIO DAN VIDIO
 ▢ BISA JADI ADMIN BERBER
 
-KELEBIHAN BOTZ
+KELEBIHAN BOT
 ▢ ON 24JAM KALAU GK DELAY
 ▢ SELALU UPDATE FITUR 
 ▢ BOT NO PASARAN
 
-LIST HARGA SEWA BOTZ
+LIST HARGA SEWA BOT
 ▢ PERHARI 2K
 ▢ PERMINGGU 5K
 ▢ PERBULAN 15K
 ▢ PERMANEN 50K
 MINAT HIBUNGI OWNER
-wa.me/6289512545999
+wa.me/62857980707940
 
 KUMPUL DISNI BUAT PEMULA BOT
 https://chat.whatsapp.com/Loc6xVYLGnwHm9vuz6hZe7`
@@ -359,13 +349,12 @@ return `
 *▢️ ${prefix}owner*
 *▢️ ${prefix}ping*
 *▢️ ${prefix}runtime*
-*▢️ ${prefix}donasi*
 *▢️ ${prefix}leaderboard*
 *▢️ ${prefix}cekpremium*
 *▢️ ${prefix}listpremium*
 *▢️ ${prefix}getpp*
 *▢️ ${prefix}setpp*
-*▢️ ${prefix}bugreport* *keluhan*
+*▢️ ${prefix}bugreport* _keluhan_
 `
 } 
 exports.islamMenu = (prefix) => {
@@ -449,7 +438,7 @@ exports.dewasaMenu = (prefix) => {
 return`
 *────❲DEWASA MENU❳────*
 
-*▢️ ${prefix}xnxx* *link*
+*▢️ ${prefix}xnxx* *_link_*
 *▢️ ${prefix}xnxxsearch*
 *▢️ ${prefix}asupan*
 *▢️ ${prefix}randombokep*
@@ -469,13 +458,6 @@ exports.soundMenu = (prefix) => {
 return`
 *────❲SOUND MENU❳────*
   
-*▢️ ${prefix}ngaji*
-*▢️ ${prefix}ngaji2*
-*▢️ ${prefix}sholawatnabi*
-*▢️ ${prefix}tilawah*
-*▢️ ${prefix}sound desah*
-*▢️ ${prefix}sound desah2*
-*▢️ ${prefix}sound desah3*
 *▢️ ${prefix}sound1*
 *▢️ ${prefix}sound2*
 *▢️ ${prefix}sound3*
@@ -598,7 +580,7 @@ return`
 
 `}
 exports.allMenu = (prefix) => {
-return `━━━━━『RAMDANI BOTZ』━━━━━
+return `━━━━━『ViaaBot』━━━━━
 
 *INFO USER*
 ❏ NAMA : *${pushname}*
@@ -607,10 +589,10 @@ return `━━━━━『RAMDANI BOTZ』━━━━━
 ❏ LIMIT : *${isPremium ? 'Unlimited' : `${gcount}`}*
 
 *INFO BOT*
-❏ NAMA : *RAMDANI BOTZ*
-❏ API : *@6288975996370*
-❏ OWNER : *RAMDANI OFFICIAL*
-❏ API : *@6289512545999*
+❏ NAMA : *ViaaBot*
+❏ API : *wa.me/6285798070794*
+❏ OWNER : *Sylvia Adrastea*
+❏ API : *wa.me/62857980707940*
 ❏ TOTAL HIT : *${cmhit.length}x HIT*
 ❏ AKTIF : *${runtime(process.uptime())}*
 ❏ BATERAI : *${baterai}%*
@@ -627,22 +609,19 @@ return `━━━━━『RAMDANI BOTZ』━━━━━
 *▢️ ${prefix}profile*
 *▢️ ${prefix}waktu*
 *▢️ ${prefix}botstat*
-*▢️ ${prefix}sewabot*
-*▢️ ${prefix}listsewa*
 *▢️ ${prefix}owner*
 *▢️ ${prefix}ping*
 *▢️ ${prefix}runtime*
-*▢️ ${prefix}donasi*
 *▢️ ${prefix}leaderboard*
 *▢️ ${prefix}cekpremium*
 *▢️ ${prefix}listpremium*
-*▢️ ${prefix}bugreport* [ keluhan ]
+*▢️ ${prefix}bugreport* *_[ keluhan ]_*
 
 *GROUP MENU*
 *▢️ ${prefix}groupsetting*
-*▢️ ${prefix}getbio* _reply_
-*▢️ ${prefix}afk* _alasan_
-*▢️ ${prefix}kontak* _nomor|nama_
+*▢️ ${prefix}getbio* *_reply_*
+*▢️ ${prefix}afk* *_alasan_*
+*▢️ ${prefix}kontak* *_nomor|nama_*
 *▢️ ${prefix}ceksewa*
 *▢️ ${prefix}kickall*
 *▢️ ${prefix}infogrup*
@@ -651,24 +630,24 @@ return `━━━━━『RAMDANI BOTZ』━━━━━
 *▢️ ${prefix}demote*
 *▢️ ${prefix}demoteall*
 *▢️ ${prefix}listonline*
-*▢️ ${prefix}tagall* _teks_
+*▢️ ${prefix}tagall* *_teks_*
 *▢️ ${prefix}leave*
-*▢️ ${prefix}kick* _reply_
-*▢️ ${prefix}add* _628xxx_
+*▢️ ${prefix}kick* *_reply_*
+*▢️ ${prefix}add* *_628xxx_*
 *▢️ ${prefix}setnamegc*
 *▢️ ${prefix}setppgc*
 *▢️ ${prefix}getpp*
 *▢️ ${prefix}setdeskgc*
-*▢️ ${prefix}sider* _reply chat bot_
-*▢️ ${prefix}hidetag* _teks/reply teks_
+*▢️ ${prefix}sider* *_reply chat bot_*
+*▢️ ${prefix}hidetag* *_teks/reply teks_*
 *▢️ ${prefix}linkgc*
 *▢️ ${prefix}getdeskgc*
 
 *GAME MENU*
 *▢️ ${prefix}limitgame*
 *▢️ ${prefix}slot*
-*▢️ ${prefix}gelud* _@tag_
-*▢️ ${prefix}tictactoe* _@tag_
+*▢️ ${prefix}gelud* *_@tag_*
+*▢️ ${prefix}tictactoe* *_@tag_*
 *▢️ ${prefix}siapaaku*
 *▢️ ${prefix}family100*
 *▢️ ${prefix}kuismath*
@@ -685,7 +664,7 @@ return `━━━━━『RAMDANI BOTZ』━━━━━
 *▢️ ${prefix}tebakgambar*
 *▢️ ${prefix}tebakumur*
 *▢️ ${prefix}tebakbendera*
-*▢️ ${prefix}suit* _batu/kertas/gunting_
+*▢️ ${prefix}suit* *_batu/kertas/gunting_*
 *▢️ ${prefix}math*
 
 *ISLAM MENU*
@@ -710,58 +689,51 @@ return `━━━━━『RAMDANI BOTZ』━━━━━
 *▢️ ${prefix}tiktoknowm*
 *▢️ ${prefix}tiktokaudio*
 *▢️ ${prefix}mediafire*
-*▢️ ${prefix}nhentaipdf* _code_
+*▢️ ${prefix}nhentaipdf* *_code_*
 
 *MAKER MENU*
-*▢️ ${prefix}tahta* _teks_
-*▢️ ${prefix}cup* _teks_
-*▢️ ${prefix}cup1* _teks_
-*▢️ ${prefix}coffe* _teks_
-*▢️ ${prefix}birthdaycake* _teks_ 
-*▢️ ${prefix}metallogo* _teks_
-*▢️ ${prefix}lighttext* _teks_
-*▢️ ${prefix}halloween* _teks_ 
-*▢️ ${prefix}vampire* _teks_
-*▢️ ${prefix}matrix* _teks_
-*▢️ ${prefix}googletxt* _teks_
-*▢️ ${prefix}spiderman* _teks_
-*▢️ ${prefix}express* _teks_
+*▢️ ${prefix}tahta* *_teks_*
+*▢️ ${prefix}cup* *_teks_*
+*▢️ ${prefix}cup1* *_teks_*
+*▢️ ${prefix}coffe* *_teks_*
+*▢️ ${prefix}birthdaycake* *_teks_*
+*▢️ ${prefix}metallogo* *_teks_*
+*▢️ ${prefix}lighttext* *_teks_*
+*▢️ ${prefix}halloween* *_teks_* 
+*▢️ ${prefix}vampire* *_teks_*
+*▢️ ${prefix}matrix* *_teks_*
+*▢️ ${prefix}googletxt* *_teks_*
+*▢️ ${prefix}spiderman* *_teks_*
+*▢️ ${prefix}express* *_teks_*
 
 *TANYA MENU*
-*▢️ ${prefix}sertitolol* _teks_
-*▢️ ${prefix}bucinserti* _teks_
-*▢️ ${prefix}fuckboy* _teks_
-*▢️ ${prefix}fuckgirl* _teks_
-*▢️ ${prefix}badboy* _teks_
-*▢️ ${prefix}badgirl* _teks_
-*▢️ ${prefix}goodboy* _teks_
-*▢️ ${prefix}goodgirl* _teks_
+*▢️ ${prefix}sertitolol* *_teks_*
+*▢️ ${prefix}bucinserti* *_teks_*
+*▢️ ${prefix}fuckboy* *_teks_*
+*▢️ ${prefix}fuckgirl* *_teks_*
+*▢️ ${prefix}badboy* *_teks_*
+*▢️ ${prefix}badgirl* *_teks_*
+*▢️ ${prefix}goodboy* *_teks_*
+*▢️ ${prefix}goodgirl* *_teks_*
 
 *STICKER MENU* 
-*▢️ ${prefix}attp* _teks_
-*▢️ ${prefix}ttp2* _teks_
-*▢️ ${prefix}ttp3* _teks_
-*▢️ ${prefix}ttp4* _teks_
-*▢️ ${prefix}amongus* _teks_
+*▢️ ${prefix}attp* *_teks_*
+*▢️ ${prefix}ttp2* *_teks_*
+*▢️ ${prefix}ttp3* *_teks_*
+*▢️ ${prefix}ttp4* *_teks_*
+*▢️ ${prefix}amongus* *_teks_*
 *▢️ ${prefix}dadu*
 *▢️ ${prefix}doge*
 *▢️ ${prefix}patrick*
 *▢️ ${prefix}gura*
 *▢️ ${prefix}stickeranime*
-*▢️ ${prefix}semoji* _emoji_
-*▢️ ${prefix}sticker* _reply foto/video_
-*▢️ ${prefix}smeme* _teks|teks_
-*▢️ ${prefix}swm* _pack|author_
-*▢️ ${prefix}take* _pack|author_
+*▢️ ${prefix}semoji* *_emoji_*
+*▢️ ${prefix}sticker* *_reply foto/video_*
+*▢️ ${prefix}smeme* *_teks|teks_*
+*▢️ ${prefix}swm* *_pack|author_*
+*▢️ ${prefix}take* *_pack|author_*
 
 *SOUND MENU*
-*▢️ ${prefix}ngaji*
-*▢️ ${prefix}ngaji2*
-*▢️ ${prefix}sholawatnabi*
-*▢️ ${prefix}tilawah*
-*▢️ ${prefix}sound desah*
-*▢️ ${prefix}sound desah2*
-*▢️ ${prefix}sound desah3*
 *▢️ ${prefix}sound1*
 *▢️ ${prefix}sound2*
 *▢️ ${prefix}sound3*
@@ -974,8 +946,8 @@ return `━━━━━『RAMDANI BOTZ』━━━━━
 *▢️ ${prefix}doujindesu*
 *▢️ ${prefix}storyanime*
 *▢️ ${prefix}otakuongoing*
-*▢️ ${prefix}nhentai *code*
-*▢️ ${prefix}nekopoi _link_
+*▢️ ${prefix}nhentai* *_code_*
+*▢️ ${prefix}nekopoi* *_link_*
 *▢️ ${prefix}nekopoi3d*
 *▢️ ${prefix}nekopoicosplay*
 *▢️ ${prefix}nekopoisearch*
@@ -989,26 +961,26 @@ return `━━━━━『RAMDANI BOTZ』━━━━━
 
 
 *OWNER MENU* 
-*▢️ ${prefix}bc* _teks_
-*▢️ ${prefix}tobc* _audio_
+*▢️ ${prefix}bc* *_teks_*
+*▢️ ${prefix}tobc* *_audio_*
 *▢️ ${prefix}term*
 *▢️ ${prefix}eval*
 *▢️ ${prefix}clearall*
 *▢️ ${prefix}leaveall*
-*▢️ ${prefix}join* _teks_
+*▢️ ${prefix}join* *_teks_*
 *▢️ ${prefix}shutdown*
 *▢️ ${prefix}getquoted*
-*▢️ ${prefix}addupdate* _fiturnya_
-*▢️ ${prefix}exif* _nama|author_
-*▢️ ${prefix}sewa add/del* _waktunya_
-*▢️ ${prefix}premium add* _@tag|nomor_
-*▢️ ${prefix}premium del* _@tag|nomor_
+*▢️ ${prefix}addupdate* *_fiturnya_*
+*▢️ ${prefix}exif* *_nama|author_*
+*▢️ ${prefix}sewa add/del* *_waktunya_*
+*▢️ ${prefix}premium add* *_@tag|nomor_*
+*▢️ ${prefix}premium del* *_@tag|nomor_*
 *▢️ ${prefix}setpp*
 *▢️ ${prefix}setbio*
 *▢️ ${prefix}setname*
 *▢️ ${prefix}getpp*
 *▢️ ${prefix}sharelock*
-*▢️ ${prefix}chat* _nomor|teks_
+*▢️ ${prefix}chat* *_nomor|teks_*
 
 *CHAT MENU*
 *▢️ ${prefix}spam*
@@ -1016,21 +988,21 @@ return `━━━━━『RAMDANI BOTZ』━━━━━
 *▢️ ${prefix}spamsw*
 
 *BROWSER MENU*
-*▢️ ${prefix}nekopoisearch* _query_
-*▢️ ${prefix}ytsearch* _query_
-*▢️ ${prefix}shopee* _product_
-*▢️ ${prefix}playstore* _query_
-*▢️ ${prefix}ssweb* _query_
-*▢️ ${prefix}google* _query_
-*▢️ ${prefix}image* _query_
-*▢️ ${prefix}pinterest* _query_
-*▢️ ${prefix}apkpure* _query_
+*▢️ ${prefix}nekopoisearch* *_query_*
+*▢️ ${prefix}ytsearch* *_query_*
+*▢️ ${prefix}shopee* *_product_*
+*▢️ ${prefix}playstore* *_query_*
+*▢️ ${prefix}ssweb* *_query_*
+*▢️ ${prefix}google* *_query_*
+*▢️ ${prefix}image* *_query_*
+*▢️ ${prefix}pinterest* *_query_*
+*▢️ ${prefix}apkpure* *_query_*
 
 *CEK MENU*
 *▢️ ${prefix}mining*
 *▢️ ${prefix}cekwatak*
-*▢️ ${prefix}cekmati* _nama_
-*▢️ ${prefix}wangy* _nama_
+*▢️ ${prefix}cekmati* *_nama_*
+*▢️ ${prefix}wangy* *_nama_*
 *▢️ ${prefix}citacita*
 *▢️ ${prefix}toxic*
 *▢️ ${prefix}truth*
@@ -1053,4 +1025,4 @@ return `━━━━━『RAMDANI BOTZ』━━━━━
 *▢️ ${prefix}memeindo*
 *▢️ ${prefix}darkjoke*
 
-© Creator by Ramdani Official`}
+© Creator Sylvia Adrastea`}
