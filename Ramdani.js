@@ -1454,7 +1454,7 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://i.ibb.co/kynNYTh/RAMDANI2.jpg'
+              gopeynya = 'https://i.ibb.co/1K3CbDG/20220131-223944-polarr.jpg'
               teksnya = `*[ PRICE LIST ]*
 *Sewa Bot*
 *1 Hari :* 2K
