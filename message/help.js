@@ -106,29 +106,8 @@ exports.soundMenu = (prefix) => {
 exports.gameMenu = (prefix) => {
     return `
   *────❲GAME MENU❳────*
-FITUR GAME SEDANG ERROR! 
-*▢️ ${prefix}limitgame*
-*▢️ ${prefix}slot*
-*▢️ ${prefix}gelud* _@tag_
-*▢️ ${prefix}tictactoe* _@tag_
-*▢️ ${prefix}siapaaku*
-*▢️ ${prefix}family100*
-*▢️ ${prefix}kuismath*
-*▢️ ${prefix}asahotak*
-*▢️ ${prefix}tebaklirik*
-*▢️ ${prefix}tebaklagu*
-*▢️ ${prefix}tebakkata*
-*▢️ ${prefix}susunkata
-*▢️ ${prefix}kimiakuis*
-*▢️ ${prefix}caklontong*
-*▢️ ${prefix}tebakjenaka*
-*▢️ ${prefix}tebakanime*
-*▢️ ${prefix}tebaktebakan*
-*▢️ ${prefix}tebakgambar*
-*▢️ ${prefix}tebakumur*
-*▢️ ${prefix}tebakbendera*
-*▢️ ${prefix}suit* _batu/kertas/gunting_
-*▢️ ${prefix}math*
+  
+MAAF FITUR GAME SEDANG ERROR! 
 `
 }
 exports.funMenu = (prefix) => {
@@ -667,14 +646,6 @@ return `━━━━━『ViaaBot』━━━━━
 *▢️ ${prefix}suit* *_batu/kertas/gunting_*
 *▢️ ${prefix}math*
 
-*ISLAM MENU*
-*▢️ ${prefix}kisahnabi*
-*▢️ ${prefix}jadwalsholat*
-*▢️ ${prefix}alquran*
-*▢️ ${prefix}asmaulhusna*
-*▢️ ${prefix}alquranaudio*
-*▢️ ${prefix}listsurah*
-
 *DOWNLOAD MENU*
 *▢️ ${prefix}fbdl*
 *▢️ ${prefix}igdl*
@@ -857,24 +828,6 @@ return `━━━━━『ViaaBot』━━━━━
 *▢️ ${prefix}upswvoice* _voice_
 *▢️ ${prefix}upswaudio* _audio_
 *▢️ ${prefix}upswgif* _gif_
-
-*18+ MENU*
-*▢️ ${prefix}xnxx* _link_
-*▢️ ${prefix}xnxxsearch*
-*▢️ ${prefix}asupan*
-*▢️ ${prefix}asupansantuy*
-*▢️ ${prefix}asupanbocil*
-*▢️ ${prefix}asupanukhty*
-*▢️ ${prefix}asupanrikagusriani*
-*▢️ ${prefix}asupanghea*
-*▢️ ${prefix}randombokep*
-*▢️ ${prefix}desah*
-*▢️ ${prefix}desah1*
-*▢️ ${prefix}desah2*
-*▢️ ${prefix}desah3*
-*▢️ ${prefix}desah4*
-*▢️ ${prefix}desah5*
-*▢️ ${prefix}desah6*
 
 *SEARCH MENU*
 *▢️ ${prefix}nulis*

@@ -8,10 +8,10 @@ module.exports.mess = {
 				Iv: 'JANGAN NGASIH LINK GAJE TOD'
 			},
 			only: {
-				group: 'KHUSUS GRUP BANG',
-				admin: 'KHUSUS ADMIN BANG',
-				premium: 'LU BUKAN MEMBER PREMIUM,BELI DULU SANA',
-				owner: 'KHUSUS OWNER BANG',
-				Badmin: 'BOT HARUS JADI ADMIN BANG',
+				group: 'anoo.. ini khusus grup',
+				admin: 'maaf , hanya bisa admin yg menggunakan fitur ini',
+				premium: 'maaf.. kau bukan user premium , kalo mau jadi user premium silahkan chat ownerku\nhttps://wa.me/6285798070794',
+				owner: 'fitur ini khusus owner',
+				Badmin: 'bot nya jadiin admin duluu!',
 			}
 		}

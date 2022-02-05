@@ -820,7 +820,7 @@ function banChat() {
         case 'creator':
                sendKontak(from, `${owner}`, `${ownerName}`, 'Sibukk!!')
                await sleep(1000)
-               txtt =`*Haii @${sender.split('@')[0]}*\n*Itu Ownerku, Ada Keperluan Apa?`
+               txtt =`*Haii ${pushname}*\n*Itu Ownerku, Ada Keperluan Apa?*`
 
 
                buttonsMessage = {
@@ -849,6 +849,7 @@ RAMDANI.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 //ೋ❀❀ೋ═══[SUBSCRIBE RAMDANI OFFICIAL]═══ೋ❀❀ೋ//
         case 'menu':
         case 'help':
+        case 'p':
         menu =`╭──❒ *INFO USER*
 ├• *Nama : ${pushname}*
 ├• *Nomor : @${sender.split('@')[0]}*
@@ -926,7 +927,7 @@ RAMDANI.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                    }
                         list.push(yy)
            }
-               listmsg(from, `${ucapanWaktu}`,  `*Haloo ${pushname}*\n*Silahkan Pilih Disini!*\n*Jangan spam Bot Ya Kasih Jeda 5detik*`, list)
+               listmsg(from, `${ucapanWaktu}`,  `*Haloo ${pushname}*\n*Ini Menunya Silahkan Di Pilih!*\n*Jangan spam Bot Ya Kasih Jeda 5detik*`, list)
                break
        
 //------------------< Game >------------------- 
@@ -4034,7 +4035,7 @@ case 'linkgc':
               const msl = groupMembers
               const siapss = nus[Math.floor(Math.random() * nus.length)]
               const sipss = pushname[Math.floor(Math.random() * msl.length)]
-              teks = `*Masih Gantengan Owner Gua :* @${siapss.jid.split('@')[0]}`
+              teks = `*Masih Gantengan Husbu Gua :* @${siapss.jid.split('@')[0]}`
               membr.push(siapss.jid)
               mentions(teks, membr, true)
               break
@@ -4167,7 +4168,7 @@ case 'caripesan':  //by ANU TEAM
               if (args.length < 1) return reply(`Ketik ${prefix}bugreport [fiturnya] [Error Nya Gimana]`) 
               teks = args.join(' ')
               reply('Terima Kasih Telah Melaporkan Bug Pada Owner, Jika Itu Sekedar Iseng Maka Akan Di Ban Oleh Bot!')
-              RAMDANI.sendMessage('6289512545999@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              RAMDANI.sendMessage('62857980707940@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               break
        case 'readall':
               totalchat.map( async ({ jid }) => {
@@ -4874,7 +4875,7 @@ break
       case 'gamemenu':
              RAMDANI.sendMessage(from, gameMenu(prefix), MessageType.text, {quoted: troli})
              break
-      case 'rules':
+      case 'rulesbot':
              RAMDANI.sendMessage(from, rulesBot(prefix), MessageType.text, {quoted: troli})
              break
        case 'owner':
