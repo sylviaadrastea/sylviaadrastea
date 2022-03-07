@@ -1,1 +1,1 @@
-FOLLOW JAN PAKE NYA DOANG
+jangan lupa di follow
